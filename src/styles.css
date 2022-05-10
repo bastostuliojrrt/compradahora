@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5f2fa;
+}
+
+.content{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.content__div{
+    margin-left: 40px;
+}
+
+.input__label {
+    font-family: Graphik-Light, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1591e0;
+    font-style: normal;
+}
+
+.cadastro-label {
+    padding-bottom: 8px;
+    display: block;
+}
+
+.input--classic {
+    padding: 10px 19px;
+    margin: 6px 20px 20px 0px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+    outline: #dcdcdc;
+    box-shadow: none;
+    opacity: 1 !important;
+}
+
+.div {
+    margin: 0 2.5rem 0 0;
+}
+
+/*titulos*/
+.title__label{
+    color: #1591e0;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title__hr hr {
+    flex: 1;
+    margin-left: 5em;
+    height: 1px;
+    border: none;
+    background: black;
+}

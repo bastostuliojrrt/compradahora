@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.title-second{
+    color: #6c63ff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-primary{
+    color: #fff;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.description-primary{
+    color: #fff;
+}
+
+.description-second{
+    color: #ecf0f1;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color:#6c63ff;
+}
+
+.btn-second{
+    background-color:#6c63ff;
+    color: #fff;
+    border: 1px solid #6c63ff;
+}
+
+.content{
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 21%);
+}
+
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: #6c63ff;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    left: 60%;
+}
+
+.first-content{
+    display: flex;
+}
+
+.first-column{
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+
+.second-column{
+    flex: 2 0 auto;
+}
+
+
+.second-content{
+    position: absolute;
+    display: flex;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space{
+    margin-bottom: 10px;
+}
+
+.p-inputtext-sm .p-inputtext {
+    font-size: 0.875rem;
+    padding: 0.65625rem 0.65625rem;
+    width: 220px;
+}    
+
+.second-content .first-column{
+    order: 2;
+}
+
+.second-content .second-column{
+    order: 1;
+}
+
+.password{
+    color: #6c63ff;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
