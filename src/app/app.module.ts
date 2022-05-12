@@ -10,6 +10,7 @@ import {PasswordModule} from 'primeng/password';
 import { CadastroFornecedorComponent } from './features/cadastro-fornecedor/cadastro-fornecedor.component';
 import { CadastroClienteComponent } from './features/cadastro-cliente/cadastro-cliente.component';
 import {InputNumberModule} from 'primeng/inputnumber';
+import { InicioUsuarioComponent } from './features/inicio-usuario/inicio-usuario.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {InputNumberModule} from 'primeng/inputnumber';
     CadastroComponent,
     LoginComponent,
     CadastroFornecedorComponent,
-    CadastroClienteComponent
+    CadastroClienteComponent,
+    InicioUsuarioComponent
   ],
   imports: [
     BrowserModule,
