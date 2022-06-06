@@ -12,6 +12,7 @@ import { CadastroClienteComponent } from './features/cadastro-cliente/cadastro-c
 import {InputNumberModule} from 'primeng/inputnumber';
 import { InicioUsuarioComponent } from './features/inicio-usuario/inicio-usuario.component';
 import { HomeComponent } from './features/home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { HomeComponent } from './features/home/home.component';
     AppRoutingModule,
     InputTextModule,
     PasswordModule,
-    InputNumberModule
+    InputNumberModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

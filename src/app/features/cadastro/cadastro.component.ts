@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { FormGroup, FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-cadastro',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
+  name: string = '';
+  email: string = '';
 
+  cadastreForm!: FormGroup;
+
+ 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(){
+    console.log("oiiii");
+
   }
 
 }
