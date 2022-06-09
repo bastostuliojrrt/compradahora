@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,35 +11,14 @@
     <div class="container">
         <div class="content first-content">
             <div class="first-column">
-                <h2 class="title">Olá, friend!</h2>
-                <p class="description description-second">Já possue uma conta?</p>
-                <p class="description description-second">entra na sua conta e começe a comprar.</p>
-                <button class="btn btn-primary">Sign in</button>
+                <h2 class="title">Olá, Bem-vindo(a)</h2>
+                <p class="description description-second">Já possue uma conta? crie agora.</p>
+                <p class="description description-second" style="margin-bottom: 18px;">você gostaria de cadastrar-se como:</p>
+                <button class="btn btn-primary">Cliente</button> <p style="color:#fff ; margin-bottom: 10px;">ou</p>
+                <button class="btn btn-primary">Fornecedor</button>
             </div>
             <div class="second-column">
-                <h2 class="title title-second">Crie sua conta </h2>
-                <form  class="form" 
-                (ngSubmit)="onSubmit()"
-                [formGroup]="cadastreForm"
-                #formDir="ngForm"
-                >
-                    <span class="p-input-icon-left space">
-                        <i class="pi pi-user"></i>
-                        <input type="text" class="p-inputtext-sm form-control" pInputText placeholder="Nome" [ngModel]="name" required>
-                    </span>
-                    <span class="p-input-icon-left space">
-                        <i class="pi pi-envelope"></i>
-                        <input type="text" class="p-inputtext-sm" pInputText placeholder="Email" [ngModel]="email" required>
-                    </span>
-                    <span class="p-inputtext-sm space">
-                        <p-password placeholder="Senha" required></p-password>
-                    </span>
-                    <span class="p-inputtext-sm space">
-                        <p-password placeholder="Confirme a senha" required></p-password>
-                    </span>
-                   
-                    <button type="submit" class="btn btn-second">Sign up</button>
-                </form>
+                <img class="img-cadastro" src="../../../assets/img/cadastro.png" alt="cadastro">
             </div>
         </div>
 
