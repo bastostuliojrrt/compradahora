@@ -138,9 +138,11 @@ img{
     outline: 5px solid #6c63ff;
     outline-offset: -5px;
 }
+
 .people-cards__card:hover .people-cards__avatar img{
     transform: translateY(-50%);
 }
+
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
     color: #6c63ff;
@@ -158,16 +160,17 @@ img{
 }
 .people-cards__content{
     text-align: center;
-    padding: 40px 25px 10px;
+    /* padding: 40px 25px 10px; */
     border-left: 1px solid #dbe1e7;
 }
 .people-cards__title{
-    color: #737c85;
+    color: #f8f9fa;
     font-size: 21px;
     font-weight: normal;
+    background-color: black;
 }
 .people-cards__text{
-    color: #929da5;
+    color: #6c63ff;
     font-size: 14px;    
 }
 
@@ -268,8 +271,43 @@ img{
     background-color: #6c63ff;
 }
 
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+}
 
+.btn-primary{
+    background-color: #6c63ff;
+    border: 1px solid #6c63ff;
+    margin-left: 40px;
+}
 
+.btn-primary:hover{
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+#font{
+    font-size: 28px;
+}
+
+#entregas{
+    margin-top: 50px;
+}
+
+#interface{
+    margin-top: 87px;
+}
+
+.preco{
+    font-size: 40px;;
+}
 
 
 
