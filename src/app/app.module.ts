@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastroComponent } from './features/cadastro/cadastro.component';
@@ -13,6 +13,13 @@ import {InputNumberModule} from 'primeng/inputnumber';
 import { InicioUsuarioComponent } from './features/inicio-usuario/inicio-usuario.component';
 import { HomeComponent } from './features/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ComparativoPrecosComponent } from './features/comparativo-precos/comparativo-precos.component';
+import {AccordionModule} from 'primeng/accordion';
+import { TableModule } from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+
+
+// import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling'
 
 @NgModule({
   declarations: [
@@ -22,7 +29,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CadastroFornecedorComponent,
     CadastroClienteComponent,
     InicioUsuarioComponent,
-    HomeComponent
+    HomeComponent,
+    ComparativoPrecosComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +39,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PasswordModule,
     InputNumberModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AccordionModule,
+    BrowserAnimationsModule,
+    TableModule,
+    DialogModule,
+    // CdkVirtualScrollViewport
   ],
   providers: [],
   bootstrap: [AppComponent]
