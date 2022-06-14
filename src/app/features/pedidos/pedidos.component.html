@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul class="nav-links">
+        <li>
+          <a>
+            <i class="bx bxs-user"></i>
+            <a class="link_name" routerLink="/inicioUsuario">Usuário</a>
+          </a>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a>
+              <i class="bx bxs-cart"></i>
+              <a class="link_name" routerLink="/inicioUsuario">Minhas cotações</a>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="/pedidos">
+            <i class="bx bxs-store-alt"></i>
+            <span class="link_name">Pedidos</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/produtos">
+            <i class="bx bx-compass"></i>
+            <span class="link_name">Produtos</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/promocao">
+            <i class="bx bx-compass"></i>
+            <span class="link_name">Promoções</span>
+          </a>
+        </li>
+        <li>
+        </li>
+        <!-- <li>
+          <div class="profile-details">
+            <div class="profile-content">
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Prem Shahi</div>
+              <div class="job">Web Desginer</div>
+            </div>
+            <i class="bx bx-log-out"></i>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <section class="home-section">
+      <div class="home-content">
+        <div class="filters">
+          <input type="text" placeholder="Nome Fantasia" class="input-filter" />
+
+          <input type="text" placeholder="CNPJ" class="input-filter" />
+
+          <button class="btn-pesquisar" type="button">Pesquisar</button>
+        </div>
+
+        
+      </div>
+      <div class="box">
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Data Final</th>
+              <th>Num. Cotação</th>
+              <th>Cliente</th>
+              <th>Valor R$</th>
+              <th>Status</th>
+              <th>Vendedor</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody class="tb-content">
+            <tr>
+              <td>1</td>
+              <td>02/08/2022</td>
+              <td>384650127</td>
+              <td>José</td>
+              <td>2,92</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>02/08/2022</td>
+              <td>384654</td>
+              <td>Arnaldo</td>
+              <td>2,90</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384653</td>
+              <td>comedoria Crono</td>
+              <td>2,99</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384652</td>
+              <td>Lanches Mix</td>
+              <td>4,99</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384656</td>
+              <td>Bog mix</td>
+              <td>4,99</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384644</td>
+              <td>comedoria</td>
+              <td>4,98</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384658</td>
+              <td>comedoria Costa</td>
+              <td>4,92</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384659</td>
+              <td>comedoria Cruz</td>
+              <td>5,92</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>02/08/2022</td>
+              <td>384650</td>
+              <td>comedoria CS</td>
+              <td>6,92</td>
+              <td>PE</td>
+              <td>1</td>
+              <td>
+                <button><i class='bx bx-x'></i></button>
+                <button><i class='bx bxs-info-circle'></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+    <!-- <h5>Filter Menu</h5>
+    <p>Filters are displayed in an overlay.</p>
+    <p-table #dt1 [value]="customers" dataKey="id" [rows]="10" [showCurrentPageReport]="true"
+        [rowsPerPageOptions]="[10,25,50]" [loading]="loading" styleClass="p-datatable-customers p-datatable-gridlines"
+        [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+        [globalFilterFields]="['name','country.name','representative.name','status']">
+        <ng-template pTemplate="caption">
+            <div class="p-d-flex">
+                <span class="p-input-icon-left p-ml-auto">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="dt1.filterGlobal($event, 'contains')" placeholder="Search keyword" />
+                </span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Name
+                        <p-columnFilter type="text" field="name" display="menu"></p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Country
+                        <p-columnFilter type="text" field="country.name" display="menu"></p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Agent
+                        <p-columnFilter field="representative" matchMode="in" display="menu" [showMatchModes]="false"
+                            [showOperator]="false" [showAddButton]="false">
+                            <ng-template pTemplate="header">
+                                <div class="p-px-3 p-pt-3 p-pb-0">
+                                    <span class="p-text-bold">Agent Picker</span>
+                                </div>
+                            </ng-template>
+                            <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                                <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any"
+                                    (onChange)="filter($event.value)" optionLabel="name">
+                                    <ng-template let-option pTemplate="item">
+                                        <div class="p-multiselect-representative-option">
+                                            <span class="p-ml-1">{{option.name}}</span>
+                                        </div>
+                                    </ng-template>
+                                </p-multiSelect>
+                            </ng-template>
+                        </p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Date
+                        <p-columnFilter type="date" field="date" display="menu"></p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Balance
+                        <p-columnFilter type="numeric" field="balance" display="menu" currency="USD"></p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Status
+                        <p-columnFilter field="status" matchMode="equals" display="menu">
+                            <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                                <p-dropdown [ngModel]="value" [options]="statuses" (onChange)="filter($event.value)"
+                                    placeholder="Any">
+                                    <ng-template let-option pTemplate="item">
+                                        <span [class]="'customer-badge status-' + option.value">{{option.label}}</span>
+                                    </ng-template>
+                                </p-dropdown>
+                            </ng-template>
+                        </p-columnFilter>
+                    </div>
+                </th>
+                <th>
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Activity
+                        <p-columnFilter field="activity" matchMode="between" display="menu" [showMatchModes]="false"
+                            [showOperator]="false" [showAddButton]="false">
+                            <ng-template pTemplate="filter" let-filter="filterCallback">
+                                <p-slider [ngModel]="activityValues" [range]="true" (onSlideEnd)="filter($event.values)"
+                                    styleClass="p-m-3"></p-slider>
+                                <div class="p-d-flex p-ai-center p-jc-between p-px-2">
+                                    <span>{{activityValues[0]}}</span>
+                                    <span>{{activityValues[1]}}</span>
+                                </div>
+                            </ng-template>
+                        </p-columnFilter>
+                    </div>
+                </th>
+                <th style="width: 8rem">
+                    <div class="p-d-flex p-jc-between p-ai-center">
+                        Verified
+                        <p-columnFilter type="boolean" field="verified" display="menu"></p-columnFilter>
+                    </div>
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-customer>
+            <tr>
+                <td>
+                    {{customer.name}}
+                </td>
+                <td>
+                    <span class="image-text">{{customer.country.name}}</span>
+                </td>
+                <td>
+                    <span class="image-text">{{customer.representative.name}}</span>
+                </td>
+                <td>
+                    {{customer.date | date: 'MM/dd/yyyy'}}
+                </td>
+                <td>
+                    {{customer.balance | currency:'USD':'symbol'}}
+                </td>
+                <td>
+                    <span [class]="'customer-badge status-' + customer.status">{{customer.status}}</span>
+                </td>
+                <td>
+                    <p-progressBar [value]="customer.activity" [showValue]="false"></p-progressBar>
+                </td>
+                <td class="p-text-center">
+                    <i class="pi" [ngClass]="{'true-icon pi-check-circle': customer.verified, 'false-icon pi-times-circle': !customer.verified}"></i>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="emptymessage">
+            <tr>
+                <td colspan="7">No customers found.</td>
+            </tr>
+        </ng-template>
+    </p-table>
+
+    <h5>Filter Row</h5>
+    <p>Filters are displayed inline within a separate row.</p>
+    <p-table #dt2 [value]="customers" dataKey="id" [rows]="10" [showCurrentPageReport]="true"
+        [rowsPerPageOptions]="[10,25,50]" [loading]="loading" styleClass="p-datatable-customers" [paginator]="true"
+        currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+        [globalFilterFields]="['name','country.name','representative.name','status']">
+        <ng-template pTemplate="caption">
+            <div class="p-d-flex">
+                <span class="p-input-icon-left p-ml-auto">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="dt2.filterGlobal($event, 'contains')" placeholder="Search keyword" />
+                </span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Agent</th>
+                <th>Status</th>
+                <th style="width: 6rem">Verified</th>
+            </tr>
+            <tr>
+                <th>
+                    <p-columnFilter type="text" field="name"></p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter type="text" field="country.name"></p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter field="representative" matchMode="in" [showMenu]="false">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any"
+                                (onChange)="filter($event.value)" optionLabel="name">
+                                <ng-template let-option pTemplate="item">
+                                    <div class="p-multiselect-representative-option">
+                                        <span class="p-ml-1">{{option.name}}</span>
+                                    </div>
+                                </ng-template>
+                            </p-multiSelect>
+                        </ng-template>
+                    </p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter field="status" matchMode="equals" [showMenu]="false">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="statuses" (onChange)="filter($event.value)"
+                                placeholder="Any" [showClear]="true">
+                                <ng-template let-option pTemplate="item">
+                                    <span [class]="'customer-badge status-' + option.value">{{option.label}}</span>
+                                </ng-template>
+                            </p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter type="boolean" field="verified"></p-columnFilter>
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-customer>
+            <tr>
+                <td>
+                    {{customer.name}}
+                </td>
+                <td>
+                    <span class="image-text">{{customer.country.name}}</span>
+                </td>
+                <td>
+                    <span class="image-text">{{customer.representative.name}}</span>
+                </td>
+                <td>
+                    <span [class]="'customer-badge status-' + customer.status">{{customer.status}}</span>
+                </td>
+                <td>
+                    <i class="pi" [ngClass]="{'true-icon pi-check-circle': customer.verified, 'false-icon pi-times-circle': !customer.verified}"></i>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="emptymessage">
+            <tr>
+                <td colspan="5">No customers found.</td>
+            </tr>
+        </ng-template>
+
+    </p-table> -->
+   

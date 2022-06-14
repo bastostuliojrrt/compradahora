@@ -11,51 +11,40 @@
   </head>
   <body>
     <div class="sidebar">
-      <div class="logo-details">
-        <i class="bx bxl-c-plus-plus"></i>
-        <span class="logo_name">Cliente</span>
-      </div>
       <ul class="nav-links">
         <li>
-          <a href="#">
+          <a>
             <i class="bx bxs-user"></i>
-            <a class="link_name" href="#">Usuário</a>
+            <a class="link_name" routerLink="/inicioUsuario">Usuário</a>
           </a>
         </li>
         <li>
           <div class="iocn-link">
-            <a href="#">
+            <a>
               <i class="bx bxs-cart"></i>
-              <a class="link_name" href="#">Minhas cotações</a>
+              <a class="link_name" routerLink="/inicioUsuario">Minhas cotações</a>
             </a>
           </div>
         </li>
         <li>
-          <a href="#">
+          <a routerLink="/pedidos">
             <i class="bx bxs-store-alt"></i>
-            <a class="link_name" href="#">Fornecedores</a>
+            <span class="link_name">Pedidos</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a routerLink="/produtos">
+            <i class="bx bx-compass"></i>
+            <span class="link_name">Produtos</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/promocao">
             <i class="bx bx-compass"></i>
             <span class="link_name">Promoções</span>
           </a>
         </li>
         <li>
-          <a href="#">
-            <i class="bx bx-history"></i>
-            <span class="link_name">Histórico</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-cog"></i>
-            <span class="link_name">Setting</span>
-          </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Setting</a></li>
-          </ul>
         </li>
       </ul>
     </div>
@@ -66,8 +55,6 @@
           <input type="text" placeholder="Nome Fantasia" class="input-filter" />
 
           <input type="text" placeholder="CNPJ" class="input-filter" />
-
-          <input type="text" placeholder="Nome Fantasia" class="input-filter" />
 
           <button class="btn-pesquisar" type="button">Pesquisar</button>
         </div>
@@ -92,9 +79,9 @@
             <tr>
               <td>1</td>
               <td>02/08/2022</td>
-              <td>384657</td>
+              <td>384650127</td>
               <td>José</td>
-              <td>12345678912345</td>
+              <td>2,92</td>
               <td>PE</td>
               <td>1</td>
               <td>
@@ -105,10 +92,10 @@
             <tr>
               <td>2</td>
               <td>02/08/2022</td>
-              <td>384657</td>
+              <td>384654</td>
               <td>Arnaldo</td>
-              <td>12345678912345</td>
-              <td>AL</td>
+              <td>2,90</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -118,10 +105,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384653</td>
+              <td>comedoria Crono</td>
+              <td>2,99</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -131,10 +118,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384652</td>
+              <td>Lanches Mix</td>
+              <td>4,99</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -144,10 +131,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384656</td>
+              <td>Bog mix</td>
+              <td>4,99</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -157,10 +144,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384644</td>
+              <td>comedoria</td>
+              <td>4,98</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -170,10 +157,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384658</td>
+              <td>comedoria Costa</td>
+              <td>4,92</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -183,10 +170,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384659</td>
+              <td>comedoria Cruz</td>
+              <td>5,92</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
@@ -196,10 +183,10 @@
             <tr>
               <td>3</td>
               <td>02/08/2022</td>
-              <td>384657</td>
-              <td>Doidera</td>
-              <td>12345678912345</td>
-              <td>PB</td>
+              <td>384650</td>
+              <td>comedoria CS</td>
+              <td>6,92</td>
+              <td>PE</td>
               <td>1</td>
               <td>
                 <button><i class='bx bx-x'></i></button>
