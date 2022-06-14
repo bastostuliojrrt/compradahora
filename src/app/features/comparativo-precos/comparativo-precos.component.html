@@ -1,0 +1,112 @@
+<div class="sidebar">
+  <div class="logo-details">
+    <i class="bx bxl-c-plus-plus"></i>
+    <span class="logo_name">Cliente</span>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a href="#">
+        <i class="bx bxs-user"></i>
+        <a class="link_name" href="#">Usuário</a>
+      </a>
+    </li>
+    <li>
+      <div class="iocn-link">
+        <a href="#">
+          <i class="bx bxs-cart"></i>
+          <a class="link_name" href="#">Minhas cotações</a>
+        </a>
+      </div>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bxs-store-alt"></i>
+        <a class="link_name" href="#">Fornecedores</a>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-compass"></i>
+        <span class="link_name">Promoções</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-history"></i>
+        <span class="link_name">Histórico</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Setting</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Setting</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="home-section">
+  <div>
+    <h2>Comparativo de Preços</h2>
+  </div>
+
+  <p-accordion [multiple]="true">
+    <p-accordionTab header="Sachê de Katchup">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Select Day</th>
+            <th scope="col">Article Name</th>
+            <th scope="col">Author</th>
+            <th scope="col">Words</th>
+            <th scope="col">Shares</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                  <label class="custom-control-label" for="customCheck1">1</label>
+              </div>
+            </td>
+            <td>Bootstrap 4 CDN and Starter Template</td>
+            <td>Cristina</td>
+            <td>913</td>
+            <td>2.846</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2">
+                  <label class="custom-control-label" for="customCheck2">2</label>
+              </div>
+            </td>
+            <td>Bootstrap Grid 4 Tutorial and Examples</td>
+            <td>Cristina</td>
+            <td>1.434</td>
+            <td>3.417</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck3">
+                  <label class="custom-control-label" for="customCheck3">3</label>
+              </div>
+            </td>
+            <td>Bootstrap Flexbox Tutorial and Examples</td>
+            <td>Cristina</td>
+            <td>1.877</td>
+            <td>1.234</td>
+          </tr>
+        </tbody>
+      </table>
+    </p-accordionTab>
+    <p-accordionTab header="Guardanapos"> Content 3 </p-accordionTab>
+    <p-accordionTab header="Copos descartáveis"> Content 3 </p-accordionTab>
+    <p-accordionTab header="Alface"> teste </p-accordionTab>
+  </p-accordion>
+</div>

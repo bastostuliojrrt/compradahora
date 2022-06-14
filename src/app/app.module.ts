@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastroComponent } from './features/cadastro/cadastro.component';
@@ -30,9 +30,11 @@ import {DialogModule} from 'primeng/dialog';
 import {ButtonModule} from 'primeng/button';
 import {DropdownModule} from 'primeng/dropdown';
 import {ProgressBarModule} from 'primeng/progressbar';
-
-
-
+import { ComparativoPrecosComponent } from './features/comparativo-precos/comparativo-precos.component';
+import {AccordionModule} from 'primeng/accordion';
+import { TableModule } from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+// import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling'
 
 
 @NgModule({
@@ -47,6 +49,7 @@ import {ProgressBarModule} from 'primeng/progressbar';
     PedidosComponent,
     NavbarComponent,
     PromocaoComponent,
+    ComparativoPrecosComponent
   ],
   imports: [
     BrowserModule,
@@ -70,7 +73,11 @@ import {ProgressBarModule} from 'primeng/progressbar';
     ButtonModule,
     DropdownModule,
     ProgressBarModule
-    
+    AccordionModule,
+    BrowserAnimationsModule,
+    TableModule,
+    DialogModule,
+    // CdkVirtualScrollViewport
   ],
   providers: [],
   bootstrap: [AppComponent]
