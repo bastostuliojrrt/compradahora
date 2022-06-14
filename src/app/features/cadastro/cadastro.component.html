@@ -14,8 +14,15 @@
                 <h2 class="title">Olá, Bem-vindo(a)</h2>
                 <p class="description description-second">Já possue uma conta? crie agora.</p>
                 <p class="description description-second" style="margin-bottom: 18px;">você gostaria de cadastrar-se como:</p>
-                <button class="btn btn-primary">Cliente</button> <p style="color:#fff ; margin-bottom: 10px;">ou</p>
-                <button class="btn btn-primary">Fornecedor</button>
+                <a routerLink="/cadastroCliente">
+                    <button class="btn btn-primary">Cliente</button> 
+                </a>
+            
+                <p style="color:#fff ; margin-bottom: 10px;">ou</p>
+                <a routerLink="/cadastroFornecedor">
+                    <button class="btn btn-primary">Fornecedor</button>
+                </a>
+                
             </div>
             <div class="second-column">
                 <img class="img-cadastro" src="../../../assets/img/cadastro.png" alt="cadastro">

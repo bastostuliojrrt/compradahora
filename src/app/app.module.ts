@@ -13,6 +13,27 @@ import {InputNumberModule} from 'primeng/inputnumber';
 import { InicioUsuarioComponent } from './features/inicio-usuario/inicio-usuario.component';
 import { HomeComponent } from './features/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PedidosComponent } from './features/pedidos/pedidos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { NavbarComponent } from './features/navbar/navbar.component';
+import { PromocaoComponent } from './features/promocao/promocao.component';
+import {MatTableModule} from '@angular/material/table';
+import {TableModule} from 'primeng/table';
+import {ToastModule} from 'primeng/toast';
+import {CalendarModule} from 'primeng/calendar';
+import {SliderModule} from 'primeng/slider';
+import {MultiSelectModule} from 'primeng/multiselect';
+import {ContextMenuModule} from 'primeng/contextmenu';
+import {DialogModule} from 'primeng/dialog';
+import {ButtonModule} from 'primeng/button';
+import {DropdownModule} from 'primeng/dropdown';
+import {ProgressBarModule} from 'primeng/progressbar';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +43,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CadastroFornecedorComponent,
     CadastroClienteComponent,
     InicioUsuarioComponent,
-    HomeComponent
+    HomeComponent,
+    PedidosComponent,
+    NavbarComponent,
+    PromocaoComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +55,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PasswordModule,
     InputNumberModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatTableModule,
+    TableModule,
+    ToastModule,
+    CalendarModule,
+    SliderModule,
+    MultiSelectModule,
+    ContextMenuModule,
+    DialogModule,
+    ButtonModule,
+    DropdownModule,
+    ProgressBarModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
