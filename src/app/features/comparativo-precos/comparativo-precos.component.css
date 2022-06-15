@@ -283,6 +283,7 @@ label {
   width: 1rem;
   height: 1rem;
   content: "";
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
@@ -290,29 +291,33 @@ label {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #007bff;
+  
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png?20190929063108');
+  cursor: pointer;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
   background-color: #007bff;
+  
 }
 .custom-checkbox .custom-control-label::before {
   border-radius: 0.25rem;
+  
 }
 .custom-control-label::before, .custom-file-label, .custom-select {
   transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .custom-checkbox .custom-control-label::before {
-  border-radius: 0.25rem;
+  border-radius: 0.25rem;  
 }
 
 .custom-control-label::before, .custom-file-label, .custom-select {
-  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
 .custom-control-label::before {
   position: absolute;
