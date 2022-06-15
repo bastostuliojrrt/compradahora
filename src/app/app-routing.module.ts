@@ -1,3 +1,4 @@
+import { ComparativoPrecosComponent } from './features/comparativo-precos/comparativo-precos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastroComponent } from './features/cadastro/cadastro.component';
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path: "pedidos",
     component: PedidosComponent
+  },
+  {
+    path: "produtos",
+    component: ComparativoPrecosComponent
   }
   
 ];

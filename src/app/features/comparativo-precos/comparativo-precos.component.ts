@@ -30,4 +30,6 @@ export class ComparativoPrecosComponent implements OnInit {
       this.activeState[index] = !this.activeState[index];
   }
 
+  
+
 }

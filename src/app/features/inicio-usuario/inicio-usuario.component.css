@@ -293,7 +293,7 @@
 
 .tabela th,
 .tabela td{
-  padding-inline: 3.83rem;
+  padding-inline: 3.97rem;
   padding-block: 12px;
   border: 1px solid #fff;
   /* max-width: 800px; */
@@ -319,4 +319,22 @@
     width: 100%;
     left: 0;
   }
+}
+
+.btn-1{
+  background-color: blue;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 3px;
+  border: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 6px 7px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }

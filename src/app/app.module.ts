@@ -14,7 +14,6 @@ import { InicioUsuarioComponent } from './features/inicio-usuario/inicio-usuario
 import { HomeComponent } from './features/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PedidosComponent } from './features/pedidos/pedidos.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './features/navbar/navbar.component';
@@ -32,8 +31,8 @@ import {DropdownModule} from 'primeng/dropdown';
 import {ProgressBarModule} from 'primeng/progressbar';
 import { ComparativoPrecosComponent } from './features/comparativo-precos/comparativo-precos.component';
 import {AccordionModule} from 'primeng/accordion';
-import { TableModule } from 'primeng/table';
-import {DialogModule} from 'primeng/dialog';
+
+
 // import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling'
 
 
@@ -72,7 +71,7 @@ import {DialogModule} from 'primeng/dialog';
     DialogModule,
     ButtonModule,
     DropdownModule,
-    ProgressBarModule
+    ProgressBarModule,
     AccordionModule,
     BrowserAnimationsModule,
     TableModule,
